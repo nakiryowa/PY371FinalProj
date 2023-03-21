@@ -65,14 +65,14 @@ def gw(pixels, threshold):
     return gwimg
 
 # Everything above works. Below needs troubleshooting
-# taking out the below function for now as I don't think I need it
+# Taking out the below function for now as I don't think I need it
 # def LEDdisplay(pixels):
     """ Creates a new image from the original, changing color values from 
         color to grey and white based on brightness, then converts it into
         a byte array for processing by an Arduino UNO.
     """              
-    pixels = gw(pixels, min(brightness(pixel)))
+    #pixels = gw(pixels, min(brightness(pixel)))
     
-    img = bytearray(pixels)
+    #img = bytearray(pixels)
     
-    return img
+    #return img
