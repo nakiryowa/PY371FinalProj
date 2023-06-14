@@ -10,6 +10,7 @@
 from hmcpng import *
 import RPi.GPIO as GPIO
 import time
+import serial
 from gpiozero import LED
 from gpiozero import PWMLED # for variable brightness; divide by 256
 
