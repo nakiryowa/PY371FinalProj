@@ -5,6 +5,7 @@
 # Final Project: Moon Diagram
 # Part I: Raspberry Pi - Python 3
 #
+# preliminary actions: python3 -m pip install pyserial
 
 from hmcpng import *
 import RPi.GPIO as GPIO
